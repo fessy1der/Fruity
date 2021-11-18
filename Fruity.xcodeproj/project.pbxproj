@@ -16,6 +16,7 @@
 		573965DF27457CB100BD4FCB /* OnboardingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573965DE27457CB100BD4FCB /* OnboardingUIView.swift */; };
 		573965E22745813800BD4FCB /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573965E12745813800BD4FCB /* FruitModel.swift */; };
 		573965E52745821C00BD4FCB /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573965E42745821C00BD4FCB /* FruitData.swift */; };
+		57BCC3652746579700540A26 /* FruitRowUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCC3642746579700540A26 /* FruitRowUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		573965DE27457CB100BD4FCB /* OnboardingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingUIView.swift; sourceTree = "<group>"; };
 		573965E12745813800BD4FCB /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		573965E42745821C00BD4FCB /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		57BCC3642746579700540A26 /* FruitRowUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				573965DA274509B700BD4FCB /* CardUIView.swift */,
 				573965DC2745793700BD4FCB /* StartButtonUIView.swift */,
+				57BCC3642746579700540A26 /* FruitRowUIView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				573965E52745821C00BD4FCB /* FruitData.swift in Sources */,
 				573965CD2745017600BD4FCB /* ContentView.swift in Sources */,
+				57BCC3652746579700540A26 /* FruitRowUIView.swift in Sources */,
 				573965DD2745793700BD4FCB /* StartButtonUIView.swift in Sources */,
 				573965CB2745017600BD4FCB /* FruityApp.swift in Sources */,
 				573965DF27457CB100BD4FCB /* OnboardingUIView.swift in Sources */,
