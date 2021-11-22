@@ -17,8 +17,10 @@ struct ContentView: View {
         NavigationView{
             List{
                 ForEach(fruits.shuffled()){ item in
-                    FruitRowUIView(fruit: item)
-                        .padding(.vertical, 4)
+                    NavigationLink(destination: DetailsUIView(fruit: item)){
+                        FruitRowUIView(fruit: item)
+                            .padding(.vertical, 4)
+                    }
                 }
             } //: List
             .navigationTitle("Fruits")
