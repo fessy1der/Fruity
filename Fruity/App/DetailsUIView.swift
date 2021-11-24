@@ -57,6 +57,7 @@ struct DetailsUIView: View {
             }//: Scroll
             .edgesIgnoringSafeArea(.top)
         }//: Navigation
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
